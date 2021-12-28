@@ -91,6 +91,7 @@ server.listen(port, () => {
 我们的所有源码在 `src` 目录下，`tsc` 编译后的 `js` 文件在 `dist` 目录下，这是在 `tsconfig.json` 文件中指定的路径
 
 本地开发：执行 `yarn debug`
+
 部署生产：顺序执行 `yarn build`、`yarn serve` 或 `yarn start`（serve 和 start 是相同的命令）
 
 代码已上传到 [github](https://github.com/myesn/nodejs-integration-typescript-with-koa)
