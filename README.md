@@ -15,6 +15,7 @@ project
 ```
 
 `package.json` 可以使用 `yarn init -y` 生成
+
 `tsconfig.json` 可以使用 `tsc --init` 生成（需要全局或在项目中安装 `typescript` 包才可以使用 `tsc` 命令）
 
 ## 安装依赖
